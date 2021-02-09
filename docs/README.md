@@ -47,4 +47,19 @@ Compile:
 gcc -Wall -o led led.c  -lwiringPi
 ```
 
+![image](PXL_20210209.jpg)
+
+Components:
+* Raspberry PI Zero running Raspberry PI OS
+* USB power
+* 5v relay
+* 6v battery
+* LED
+* 220 Ohm resister
+
+Next steps:
+
+* pressure sensors (2)
+* measure/compare relative pressure via sensors with capacitor
+* toggle power to direct NMES to leg with greatest heal pressure
 
